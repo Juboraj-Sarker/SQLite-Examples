@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    tools:context=".fragment.SigninFragment">
+
+    <EditText
+        android:id="@+id/email_ET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Email"
+        app:hintTextColor="#ccc"
+        android:layout_marginTop="00dp"
+        android:tooltipText="Enter Email"
+        android:layout_margin="5dp"
+        android:background="#ccc"
+        android:padding="8dp"/>
+
+
+    <EditText
+        android:id="@+id/password_ET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Password"
+        app:hintTextColor="#ccc"
+        android:layout_marginTop="00dp"
+        android:tooltipText="Enter Password"
+        android:layout_margin="5dp"
+        android:background="#ccc"
+        android:padding="8dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signin_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Sign In"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
